@@ -96,6 +96,7 @@ return (
                         type="button"
                         disabled = {isPending}
                         >
+                            <Image alt="GitHub" src= "/logos/github.svg" width={20} height={20} />
                             Continue with GitHub
                         </Button>
                         <Button
@@ -104,27 +105,11 @@ return (
                         type="button"
                         disabled = {isPending}
                         >
+                            <Image alt="Google" src= "/logos/google.svg" width={20} height={20} />
                             Continue with Google
                         </Button>
                       </div>
                       <div className="grid gap-6">
-                        {/* <FormField
-                            control={form.control}
-                            name = "name"
-                            render={({ field }) => (
-                                <FormItem>
-                                    <FormLabel>Name</FormLabel>
-                                    <FormControl>
-                                        <Input
-                                        type="text"
-                                        placeholder="name"
-                                        {...field}
-                                        />
-                                    </FormControl>
-                                    <FormMessage />  
-                                </FormItem>
-                            )}
-                            /> */}
                         <FormField
                             control={form.control}
                             name = "email"
